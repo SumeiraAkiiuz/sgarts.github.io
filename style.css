@@ -30,10 +30,28 @@
 
   * {box-sizing:border-box}
 
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+
+.home-text{
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 300px;
+  margin-right: 20px;
+  align-items: center;
+  background-color: #F6EDF2;
+}
+
 /* Slideshow container */
 .slideshow-container {
-  margin-left: 45%;
-  max-width: 800px;
+  flex-basis: 45% ;
+  /* margin-left: 45%;
+  max-width: 800px;*/
   position: relative;
   /* margin-right: auto; */
 }
@@ -71,7 +89,7 @@
 }
 
 /* Caption text */
-.text {
+/* .text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -79,7 +97,7 @@
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
+} */
 
 /* Number text (1/3 etc) */
 .numbertext {
@@ -121,4 +139,19 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.about-cont{
+  margin: 20px auto;
+  width: 50%;
+  padding: 15px;
+
+}
+
+.about-text{
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  font-size: 18px;
+  background-color: #F6EDF2;
 }
