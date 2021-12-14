@@ -1,0 +1,71 @@
+.topnav ul{
+    list-style: none;
+    padding: 0;
+    margin-right: 50px;
+    text-align: center;
+}
+.topnav li{
+    display: inline-block;
+}
+.topnav a{
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+ /* Change the color of links on hover */
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ /* Add a color to the active/current link */
+ .topnav a.active {
+   color: #DD90BA;
+ }
+
+ * {box-sizing:border-box}
+
+
+ .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 10px;
+  }
+
+  .ani-1 video{
+    position: relative;
+    width: 700px;
+    height: 600px;
+    /* grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1; */
+  }
+  /* .desc-1{
+    padding-left: 80px;
+  } */
+  .ani-2 video{
+    width: 700px;
+    height: 700px;
+    position: relative;
+    padding-bottom: 100px;
+    /* display: inline-grid;
+    grid-template-columns: 40% 50%; */
+    /* text-align: center; */
+
+  }
+  /* .desc-2{
+    padding-left: 100px;
+  }
+         */
+
+h4{
+    float: left;
+}
